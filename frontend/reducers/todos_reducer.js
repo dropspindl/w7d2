@@ -16,20 +16,7 @@ const initialState = {
   },
 };
 
-const newTodos = [
-  {
-    id: 4,
-    title: 'wash cat',
-    body: 'with soap',
-    done: false
-  },
-  {
-    id: 5,
-    title: 'walk dog',
-    body: 'with shampoo',
-    done: true
-  },
-];
+
 
 const todosReducer = (state = initialState, action) => {
   let nextState = {};
